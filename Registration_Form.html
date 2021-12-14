@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        First Name: * <input type="text" name="first_name">
+    </div>
+    <div>
+        Last Name: * <input type="text" name="last_name">
+    </div>
+    <div>
+        Email Address: * <input type="text" name="email">
+    </div>
+    <div></div>
+        Password: * <input type="password" name="password">
+    </div>
+    <div>
+        Confirm Password: * <input type="password" name="confirm_password">
+    </div>
+    <div>
+        Birthday: <input type="date" name="birthdate">
+    </div>
+    <div>
+        Gender Identity: 
+        <div>
+            <input type="radio" name="gender" value="normal" id="normal"> 
+            <label for="normal">Male</label>
+            <input type="radio" name="gender" value="normal" id="normal"> 
+            <label for="normal">Female</label>
+            <input type="radio" name="gender" value="normal" id="normal"> 
+            <label for="normal">Non-binary</label>
+            <input type="radio" name="gender" value="normal" id="normal"> 
+            <label for="normal">I prefer not to answer</label>
+        </div>
+    </div>
+    <div>
+        <p>A short description about myself: </p>
+        <textarea name="self describe" cols="20" rows="3"></textarea>
+    </div>
+    <div> 
+        Favorite Language:
+        <select name="coding_language">
+            <option>Javascript</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>HTML</option>
+            <option>C++</option>
+            <option>C#</option>
+            <option>PHP</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, I would like to receive periodic email updates<label>
+    </div>
+    <div>
+        <input type="submit" value="Create Account" > 
+    </div>
+    <p>* Indicates a required field</p>
+</body>
+</html>
